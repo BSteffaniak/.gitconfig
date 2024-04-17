@@ -1,0 +1,21 @@
+[core]
+	hooksPath = ~/.config/git/hooks/unix
+	autocrlf = input
+  pager = delta
+[user]
+	name = Braden Steffaniak
+	email = BradenSteffaniak@gmail.com
+[init]
+	defaultBranch = master
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true
+
+[merge]
+  conflictstyle = diff3
+
+[diff]
+  colorMoved = default
